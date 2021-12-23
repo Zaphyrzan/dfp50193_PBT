@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,12 +31,46 @@
 
     <form action="function.php" method="post">
         <table>
+            <div class="promotion">
             <tr>
                 <td>
                     <h1>Langkawi Island Of Wonders</h1>
-                    <img src="images/langkawi.jpg" alt="langkawi">
+                    <ul >
+                        <li>Package for the Whole Family!</li>
+                        <li>Included Hotel reservation, transport and travel guide.</li>
+                        <li>3 Days and 2 Nights</li>
+                        <li>RM300</li>
+                </td>
+                <td>
+                <input type="checkbox" id="langkawi1" name="langkawi1" value="langkawi1">
+                <label for="langkawi1">Breakfast at hotel - RM40</label><br>
+                <input type="checkbox" id="langkawi2" name="langkawi2" value="langkawi2">
+                <label for="langkawi2">Cable Car ticket - RM50</label><br>
+                <input type="checkbox" id="langkawi3" name="langkawi3" value="langkawi3">
+                <label for="langkawi3">Hot Air Balloon Trip - RM100</label><br>
+                <input type="submit" value="Submit">
                 </td>
             </tr>
+            <!-- <tr>
+                <td>
+                    <h1>Penang Island Of Technology</h1>
+                <td>
+                    <ul>
+                        <li>Package for the Whole Family!</li>
+                        <li>Included Hotel reservation, transport and travel guide.</li>
+                        <li>3 Days and 2 Nights</li>
+                        <li>RM200</li>
+                </td>
+                <td>
+                    <input type="checkbox" id="penang1" name="penang1" value="penang1">
+                    <label for="penang1">Breakfast at hotel</label><br>
+                    <input type="checkbox" id="penang2" name="penang2" value="penang2">
+                    <label for="penang2">Cable Car ticket</label><br>
+                    <input type="checkbox" id="penang3" name="penang3" value="penang3">
+                    <label for="penang3">Hot Air Balloon Trip</label><br>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr> -->
         </table>
     </form>
 
