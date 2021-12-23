@@ -29,12 +29,12 @@
     <h4>KL International Airport (KLIA) 64000 KLIA, Sepang Selangor Darul Ehsan, Malaysia</h4>
     <h2>Travel & Promotion</h2>
 
-    <form action="check.php" method="post">
+    <form action="function.php" method="post">
         <table>
             <tr>
                 <td>
                     <h1>Langkawi Island Of Wonders</h1>
-                    <img src="/images/langkawi.png" alt="langkawi">
+                    <img src="images/langkawi.jpg" alt="langkawi">
                 </td>
             </tr>
         </table>
