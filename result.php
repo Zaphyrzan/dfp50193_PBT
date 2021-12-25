@@ -1,9 +1,5 @@
 <?php
-session_start();
-$langkawi1 = $_SESSION['langkawi1'];
-$langkawi2 = $_SESSION['langkawi2'];
-$langkawi3 = $_SESSION['langkawi3'];
-$langkawiTotal = $_SESSION['langkawiTotal'];
+require 'function.php';
 ?>
 
 
@@ -22,22 +18,21 @@ $langkawiTotal = $_SESSION['langkawiTotal'];
     <h1>Information</h1>
 
     <table>
-        <tr>
+        <?php
+        if ($rad == 'Langkawi Package') {
+            $price = 300;
+        ?>
+            Service Selected: <br> <?php echo $rad; ?> <br><br>
+            Add On: <br> <?php echo $op1 ?> <br> <?php echo $op2 ?> <br> <?php echo $op3; ?> <br><br>
+            Total Price: RM<?php echo calcTotal($cb1, $cb2, $cb3, $price);
+        } else {
+            
+        }
+        ?>
+        <!-- <tr>
             <td>Family Breakfast:</td>
-            <td><?php echo $langkawi1; ?></td>
-        </tr>
-        <tr>
-            <td>Cable Car:</td>
-            <td><?php echo $langkawi2; ?></td>
-        </tr>
-        <tr>
-            <td>Hot Air Balloon:</td>
-            <td><?php echo $langkawi3; ?></td>
-        </tr>
-        <tr>
-            <td>Total Cost:</td>
-            <td><?php echo $langkawiTotal; ?></td>
-        </tr>
+            <td><?php echo $_POST["langkawi1"];?></td>
+        </tr> -->
 
 
     </table>
