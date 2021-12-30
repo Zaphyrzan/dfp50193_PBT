@@ -1,3 +1,17 @@
+.titleColor {
+  color: rgb(2, 0, 121);
+}
+
+.textColorResult{
+  color: rgb(0, 0, 177);
+  font-weight: bold;
+}
+
+.textAddOn{
+  color: rgb(161, 0, 121);
+  font-weight: bold;
+}
+
 /* MENU DROPDOWN*/
   
 .navbar {
@@ -62,12 +76,21 @@
 }
 
 .copyright {
-  background-color:rgb(2, 143, 236);
+  background-color:rgb(8, 82, 131);
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: smaller;
   padding: 10px;
+}
+
+.copyrightcard {
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  background-color:rgb(2, 143, 236);
 }
 
   /* Float four columns side by side */
@@ -104,4 +127,12 @@
 .container_card {
   width: 100%;
   padding: 2px 16px;
+}
+
+.resultcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: #f1f1f1;
 }

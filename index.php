@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Kenari Travel Agency</h1>
+    <h1 class="titleColor">Kenari Travel Agency</h1>
     <div class="navbar">
         <a href="#Home">Home</a>
         <div class="dropdown">
@@ -23,7 +23,6 @@
         </div>
         <a href="#Contact">Contact Us</a>
     </div>
-    <h4>KL International Airport (KLIA) 64000 KLIA, Sepang Selangor Darul Ehsan, Malaysia</h4>
     <h2>Travel & Promotion</h2>
 
     <div id="Langkawi">
@@ -32,37 +31,40 @@
                 <div class="promotion">
                     <tr>
                         <td>
-                            <h1>Langkawi Island Of Wonders</h1>
+                            <div class="cardnew">
+                                <h1>Langkawi Island Of Wonders</h1>
 
-                            <ul>
-                                <h3>Package Details</h3>
-                                <li>Package for the Whole Family!</li>
-                                <li>Included Hotel reservation, transport and travel guide.</li>
-                                <li>3 Days and 2 Nights</li>
-                                <li>RM300</li>
+                                <ul>
+                                    <h3>Package Details</h3>
+                                    <li>Package for the Whole Family!</li>
+                                    <li>Included Hotel reservation, transport and travel guide.</li>
+                                    <li>3 Days and 2 Nights</li>
+                                    <li>RM300</li>
 
-                                <p></p>
-                                <label for="">Select Package</label>
-                                <input type="radio" name="rad" id="rad1" value="Langkawi Package">
+                                    <p></p>
+                                    <label for="">Select Package</label>
+                                    <input type="radio" name="rad" id="rad1" value="Langkawi Package">
 
-                                <p></p>
-                                <label for="">Additional Option</label><br>
-                                <input type="checkbox" id="langkawi1" name="langkawi1" value="40">
-                                <label for="langkawi1">Breakfast at hotel - RM40</label><br>
+                                    <p></p>
+                                    <label for="">Additional Option</label><br>
+                                    <input type="checkbox" id="langkawi1" name="langkawi1" value="40">
+                                    <label for="langkawi1">Breakfast at hotel - RM40</label><br>
 
-                                <input type="checkbox" id="langkawi2" name="langkawi2" value="50">
-                                <label for="langkawi2">Cable Car ticket - RM50</label><br>
+                                    <input type="checkbox" id="langkawi2" name="langkawi2" value="50">
+                                    <label for="langkawi2">Cable Car ticket - RM50</label><br>
 
-                                <input type="checkbox" id="langkawi3" name="langkawi3" value="100">
-                                <label for="langkawi3">Hot Air Balloon Trip - RM100</label><br>
+                                    <input type="checkbox" id="langkawi3" name="langkawi3" value="100">
+                                    <label for="langkawi3">Hot Air Balloon Trip - RM100</label><br>
 
-
-                                <input type="submit" value="Submit">
+                                    <p></p>
+                                    <input type="submit" value="Book Now!">
+                            </div>
                         </td>
                     </tr>
             </table>
         </form>
     </div>
+    <p></p>
 
     <div id="Penang">
         <form action="result.php" method="post">
@@ -70,37 +72,40 @@
                 <div class="promotion">
                     <tr>
                         <td>
-                            <h1>Penang The Lively Island</h1>
+                            <div class="cardnew">
+                                <h1>Penang The Lively Island</h1>
 
-                            <ul>
-                                <h3>Package Details</h3>
-                                <li>Package for the Whole Family!</li>
-                                <li>Included Hotel reservation, transport and travel guide.</li>
-                                <li>3 Days and 2 Nights</li>
-                                <li>RM600</li>
+                                <ul>
+                                    <h3>Package Details</h3>
+                                    <li>Package for the Whole Family!</li>
+                                    <li>Included Hotel reservation, transport and travel guide.</li>
+                                    <li>3 Days and 2 Nights</li>
+                                    <li>RM600</li>
 
-                                <p></p>
-                                <label for="">Select Package</label>
-                                <input type="radio" name="rad" id="rad2" value="Penang Package">
+                                    <p></p>
+                                    <label for="">Select Package</label>
+                                    <input type="radio" name="rad" id="rad2" value="Penang Package">
 
-                                <p></p>
-                                <label for="">Additional Option</label><br>
-                                <input type="checkbox" id="penang1" name="penang1" value="70">
-                                <label for="penang1">THE TOP Theme Park - RM70</label><br>
+                                    <p></p>
+                                    <label for="">Additional Option</label><br>
+                                    <input type="checkbox" id="penang1" name="penang1" value="70">
+                                    <label for="penang1">THE TOP Theme Park - RM70</label><br>
 
-                                <input type="checkbox" id="penang2" name="penang2" value="50">
-                                <label for="penang2">Butterfly Farm Tickets - RM50</label><br>
+                                    <input type="checkbox" id="penang2" name="penang2" value="50">
+                                    <label for="penang2">Butterfly Farm Tickets - RM50</label><br>
 
-                                <input type="checkbox" id="penang3" name="penang3" value="55">
-                                <label for="penang3">The Habitat Penang Hill - RM55</label><br>
+                                    <input type="checkbox" id="penang3" name="penang3" value="55">
+                                    <label for="penang3">The Habitat Penang Hill - RM55</label><br>
 
-
-                                <input type="submit" value="Submit">
+                                    <p></p>
+                                    <input type="submit" value="Book Now!">
+                            </div>
                         </td>
                     </tr>
             </table>
         </form>
     </div>
+    <p></p>
 
     <div id="Japan">
         <form action="result.php" method="post">
@@ -108,52 +113,53 @@
                 <div class="promotion">
                     <tr>
                         <td>
-                            <h1>Japan The Land of The Rising Sun</h1>
+                            <div class="cardnew">
+                                <h1>Japan The Land of The Rising Sun</h1>
 
-                            <ul>
-                                <h3>Package Details</h3>
-                                <li>Family Package Round Trip</li>
-                                <li>Included Hotel reservation, transport and travel guide.</li>
-                                <li>5 Days and 4 Nights</li>
-                                <li>RM4300</li>
+                                <ul>
+                                    <h3>Package Details</h3>
+                                    <li>Family Package Round Trip</li>
+                                    <li>Included Hotel reservation, transport and travel guide.</li>
+                                    <li>5 Days and 4 Nights</li>
+                                    <li>RM4300</li>
 
-                                <p></p>
-                                <label for="">Select Package</label>
-                                <input type="radio" name="rad" id="rad3" value="Japan Package">
+                                    <p></p>
+                                    <label for="">Select Package</label>
+                                    <input type="radio" name="rad" id="rad3" value="Japan Package">
 
-                                <p></p>
-                                <label for="">Additional Option</label><br>
-                                <input type="checkbox" id="japan1" name="japan1" value="1000">
-                                <label for="japan1">7 Day JR Bullet Train Pass - RM1000</label><br>
+                                    <p></p>
+                                    <label for="">Additional Option</label><br>
+                                    <input type="checkbox" id="japan1" name="japan1" value="1000">
+                                    <label for="japan1">7 Day JR Bullet Train Pass - RM1000</label><br>
 
-                                <input type="checkbox" id="japan2" name="japan2" value="50">
-                                <label for="japan2">Trip to The Island Shrine - RM1200</label><br>
+                                    <input type="checkbox" id="japan2" name="japan2" value="50">
+                                    <label for="japan2">Trip to The Island Shrine - RM1200</label><br>
 
-                                <input type="checkbox" id="japan3" name="japan3" value="100">
-                                <label for="japan3">Trip to Mount Fuji - RM800</label><br>
+                                    <input type="checkbox" id="japan3" name="japan3" value="100">
+                                    <label for="japan3">Trip to Mount Fuji - RM800</label><br>
 
-
-                                <input type="submit" value="Submit">
+                                    <p></p>
+                                    <input type="submit" value="Book Now!">
+                            </div>
                         </td>
                     </tr>
             </table>
         </form>
     </div>
+    <p></p>
 
-    <div class="row_card">
-        <div class="column_card">
-            <div class="cardnew">
-                <img src="images/desktop1.jpg" alt="Avatar" style="width:100%">
-                <h3>Corsair Vengeance i7200</h3>
-                <p>RM13,693</p>
-                <p>Processor: Intel Core i9-10850K</p>
-                <p>Graphics Card: RTX 3080</p>
-            </div>
+    <div id="Contact">
+        <div class="copyrightcard">
+            <a>KL International Airport (KLIA) 64000 KLIA, Sepang Selangor Darul Ehsan, Malaysia</a>
+            <p></p>
+            <a>Call us at</a>
+            <a>+60 11 6554 6909</a>
         </div>
+    </div>
 
-        <div class="copyright">
-            &copy; 2021 All Right Reserved | Kenari Travel Agency
-        </div>
+    <div class="copyright">
+        &copy; 2021 All Right Reserved | Kenari Travel Agency
+    </div>
 </body>
 
 </html>
